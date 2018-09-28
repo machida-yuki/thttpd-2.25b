@@ -1,0 +1,1 @@
+/ubinux/ubinux16/build-armv7-lighttpd/tmp/sysroots/ubinux-armv7/usr/share/aclocal/autobuild.m4

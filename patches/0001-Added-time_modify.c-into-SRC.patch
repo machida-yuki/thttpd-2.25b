@@ -1,0 +1,26 @@
+From a63afbf2c2fc3c5c1856e448e94b0837821db546 Mon Sep 17 00:00:00 2001
+From: Fan Xin <fan.xin@jp.fujitsu.com>
+Date: Thu, 2 Aug 2018 10:51:20 +0900
+Subject: [PATCH] Added time_modify.c into SRC.
+
+Signed-off-by: Lei Maohui <leimaohui@cn.fujitsu.com>
+---
+ Makefile.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile.in b/Makefile.in
+index 8ea5a90..5e6960b 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -63,7 +63,7 @@ INSTALL =	@INSTALL@
+ 	@rm -f $@
+ 	$(CC) $(CFLAGS) -c $*.c
+ 
+-SRC =		thttpd.c libhttpd.c fdwatch.c mmc.c timers.c match.c tdate_parse.c
++SRC =		thttpd.c libhttpd.c fdwatch.c mmc.c timers.c match.c tdate_parse.c time_modify.c
+ 
+ OBJ =		$(SRC:.c=.o) @LIBOBJS@
+ 
+-- 
+2.7.4
+
